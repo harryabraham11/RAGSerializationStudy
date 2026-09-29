@@ -132,7 +132,7 @@ python src/eval/eval_full.py
 
 # 4. Summaries and significance tests
 python src/eval/aggregate_results.py
-python src/eval/Wilcoxon_test.py
+python src/eval/wilcoxon_test.py
 python src/eval/wilcoxon_by_evidence_type.py
 ```
 
