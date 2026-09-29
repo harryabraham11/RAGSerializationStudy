@@ -98,7 +98,7 @@ Per-evidence-type results are in `data/summary_by_evidence_type.csv` and `data/s
 │   └── eval/
 │       ├── eval_full.py             # BM25 + dense + hybrid over both corpora
 │       ├── aggregate_results.py     # summary tables
-│       ├── Wilcoxon_test.py         # aggregate significance tests
+│       ├── wilcoxon_test.py         # aggregate significance tests
 │       ├── wilcoxon_by_evidence_type.py
 │       ├── find_gold_chunk.py       # gold-chunk search helpers
 │       ├── find_all_gold_chunks.py
